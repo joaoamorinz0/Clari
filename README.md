@@ -1,2 +1,17 @@
-# Clari
-Clari Controle de Gastos é um projeto pessoal destinado a anotar e calcular gastos mensais
+# C l a r i | Controle de Gastos💰
+
+## Landing Page para um projeto de controle de gastos pessoais.
+
+## O que foi usado?
+- HTML -Estrutura
+- CSS - Estilização
+- JavaScript - Animação do footer
+
+## Status
+Em desenvolvimento 🚧
+
+## Objetivos
+
+- Deixá-lo funcional
+- Criar a Página do produto
+- Melhorar a interface e a responsividade da Landing Page
