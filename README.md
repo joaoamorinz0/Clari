@@ -1,5 +1,8 @@
 # C l a r i | Controle de Gastos💰
 
+🔗 **Acesse o projeto:**  
+https://joaoamorinz0.github.io/Clari/
+
 ## Landing Page para um projeto de controle de gastos pessoais.
 
 ## O que foi usado?
