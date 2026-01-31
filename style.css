@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(180deg, #114d8d, #1f86ec);
+  color: #fff;
+}
+
+.cabecalho {
+  width: 100%;
+  max-width: 1800px;
+  background-color: #042242;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  border-bottom: solid 2px #fff;
+}
+
+.cabecalho h1 {
+  font-family: 'fascinate';
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  color: #fff;
+  padding-left: 30px;
+}
+
+.cabecalho-menu-item {
+  padding-bottom: 2px;
+  padding-right: 50px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  padding: 20px;
+  font-family: "Comic Relief", system-ui;
+}
+
+.hero h2 {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  padding: 20px;
+  color: #e7e7e7;
+}
+
+.button {
+  border: none;
+  display: block;
+  margin: 32px auto 0;
+  width: 170px;
+  height: 60px;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 22px;
+  font-weight: 600;
+  border: solid 1px #042242;
+}
+
+.button:hover {
+  background: #114d8d;
+  color: rgb(255, 255, 255);
+  border: solid 2px #41648a;
+}
+.button:active {
+  background-color: #0a2540;
+  transform: translateY(-8px);
+}
+
+.problema {
+  border-top: 0.4px solid #FFF2E7;
+  margin: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.problema h2 {
+  margin: 10px;
+  padding: 32px;
+  font-size: 38px;
+}
+
+.problema li {
+  list-style: none;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.card {
+  background: #fff;
+  color: #0a2540;
+  padding: 32px 24px;
+  border-radius: 20px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card i {
+  font-size: 40px;
+  margin-bottom: 16px;
+  color: #f1f1f1;
+}
+
+.solucoes h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 30px;
+  font-size: 38px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: 'Ubuntu';
+}
+
+.card-solucoes {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  height: 300px;
+}
+
+.card-solucoes h3 {
+  font-size: 30px;
+  border-bottom: solid 2px #0a25403d;
+  padding: 5px;
+}
+
+.card p {
+  padding: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.how-work {
+  border-top: solid 1px #fff;
+  background-color: #114d8d;
+  margin-top: 100px;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.how-work h2 {
+  font-size: 42px;
+  margin-bottom: 48px;
+}
+
+.cards-how {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards-how .card {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.493);
+  backdrop-filter: blur(6px);
+  transition: all 0.5s;
+}
+
+.cards-how .card:hover {
+  border: 1.0px solid rgba(255, 255, 255, 0.884);
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+.beneficios {
+  margin-top: 120px;
+  padding: 80px 20px;
+}
+
+.beneficios h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 48px;
+}
+
+.card-beneficio {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-beneficio .card {
+  background: #ffffff;
+  color: #0a2540;
+}
+
+.card-beneficio .card h3 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.card-beneficio i {
+  color: #042242;
+  font-size: 50px;
+}
+
+.cta {
+   background: #0a2540;
+  padding: 80px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cta h2 {
+  margin-bottom: 16px;
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+}
+
+.cta p {
+  font-size: 20px;
+  opacity: 0.85;
+  margin-bottom: 32px;
+}
+
+.cta button {
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+  padding: 16px 48px;
+  font-size: 20px;
+  color: rgb(98, 163, 193);
+  border: 2px solid rgb(98, 166, 193);
+  border-radius: 999px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.cta button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 60px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(98, 155, 193);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.cta button:hover::before {
+  scale: 3;
+}
+
+.cta button:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(98, 163, 193, 0.4);
+}
+
+.cta button:active {
+  scale: 1;
+}
+
+footer {
+  background: #081c34;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+footer h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+footer .contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+footer .contato a {
+  margin: auto;
+  font-size: 36px;
+  color: #1f86ec;
+  transition: 0.3s;
+}
+
+footer .contato a:hover {
+  color: #3b9cff;
+  transform: translateY(-4px);
+}
+
+footer p {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.animate {
+  animation: fadeUp 0.6s ease forwards;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+  }
+  .cabecalho h1 {
+    font-size: 32px;
+    padding-left: 0;
+    letter-spacing: 4px;
+  }
+
+  .cabecalho-menu-item {
+    padding-right: 0;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-solucoes {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta h2 {
+    font-size: 28px;
+  }
+
+  .cta p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+   footer h2 {
+    font-size: 26px;
+    footer {
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+  }
+
+  .contato h2 {
+    font-size: 22px;
+  }
+
+  .contato p {
+    font-size: 16px;
+  }
+  }
+}
+
+
+
