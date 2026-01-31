@@ -344,25 +344,8 @@ footer p {
   }
 }
 
-@media (max-width: 768px) {
-  .cabecalho {
-    flex-direction: column;
-    padding: 16px;
-    gap: 12px;
-  }
-  .cabecalho h1 {
-    font-size: 32px;
-    padding-left: 0;
-    letter-spacing: 4px;
-  }
 
-  .cabecalho-menu-item {
-    padding-right: 0;
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
   .hero h1 {
     font-size: 32px;
     padding: 10px;
@@ -374,14 +357,14 @@ footer p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
   .card {
     width: 100%;
     max-width: 320px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
   .card-solucoes {
     flex-direction: column;
     height: auto;
@@ -390,7 +373,7 @@ footer p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
   .cta h2 {
     font-size: 28px;
   }
@@ -400,7 +383,7 @@ footer p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
   footer {
    footer h2 {
     font-size: 26px;
@@ -419,6 +402,10 @@ footer p {
   }
   }
 }
+
+
+
+
 
 
 
