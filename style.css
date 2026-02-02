@@ -276,7 +276,7 @@ body {
 
 .cta button:hover {
   color: #212121;
-  scale: 1.1;
+  scale: 1.0;
   box-shadow: 0 0px 20px rgba(98, 163, 193, 0.4);
 }
 
@@ -402,6 +402,7 @@ footer p {
   }
   }
 }
+
 
 
 
